@@ -54,6 +54,8 @@ fig = create_figure("rgba(0,0,0,0)", "rgba(0,0,0,0)", "rgba(0,0,0,0)")
 
 app = dash.Dash(__name__)
 
+server = app.server
+
 app.layout = html.Div([
 	html.Div([
 		html.Label("Basic operations with sets")],
