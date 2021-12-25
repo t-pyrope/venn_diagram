@@ -1,0 +1,18 @@
+body {
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 1rem;
+}
+
+body > div {
+	max-width: 1000px;
+	display: flex;
+	flex-direction: row;
+}
+
+p {
+	margin-top: 0;
+	color: grey;
+}
